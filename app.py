@@ -818,25 +818,25 @@ elif page == "Demand Segments":
 
     st.success("""
 
-✅ **High Value Products**
+**High Value Products**
 
 Maintain adequate inventory while avoiding excess stock due to high unit cost.
 
 ---
 
-✅ **Stable & Growing Demand**
+**Stable & Growing Demand**
 
 Keep regular inventory with scheduled replenishment to meet consistent customer demand.
 
 ---
 
-✅ **High Volume, High Volatility**
+**High Volume, High Volatility**
 
 Maintain higher safety stock and monitor demand frequently to avoid stockouts.
 
 ---
 
-✅ **Rapidly Growing Niche Products**
+**Rapidly Growing Niche Products**
 
 Increase inventory gradually and closely monitor future demand trends before scaling further.
 
