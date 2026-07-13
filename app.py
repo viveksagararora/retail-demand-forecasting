@@ -291,9 +291,8 @@ elif page == "Forecast Explorer":
     # ----------------------------------------
 
     monthly = (
-        data.groupby("Order Date")["Sales"]
-        .sum()
-        .resample("M")
+        data
+        .groupby(pd.Grouper(key="Order Date", freq="ME"))["Sales"]
         .sum()
         .reset_index()
     )
